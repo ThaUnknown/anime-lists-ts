@@ -3,7 +3,7 @@ import { AnimeItem } from '../models/animeitem.ts'
 
 async function getData () {
   const response = await fetch(ANIMEOFFLINEDB_URL)
-  return await response.json() as { data: Array<{ sources: string[], tags: string[] }>}
+  return await response.json() as { data: Array<{ sources: string[], tags: string[], type: string }>}
 }
 
 export async function generateListAOD () {
@@ -11,6 +11,7 @@ export async function generateListAOD () {
   const adult: AnimeItem[] = []
   const items = data.map(i => {
     const item = AnimeItem.fromAODBSourceUrls(i.sources)
+    item.type = i.type
     const isAdult = i.tags.includes('adult audience only')
     if (isAdult) {
       adult.push(item)

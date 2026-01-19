@@ -2,6 +2,7 @@ import { writeFile } from 'node:fs/promises'
 
 import { generateListAL } from './sources/animelists.ts'
 import { generateListAOD } from './sources/animeofflinedb.ts'
+import { appendMissingIds } from './sources/tmdb.ts'
 
 import type { AnimeItem } from './models/animeitem.ts'
 
@@ -39,10 +40,12 @@ const parsedAODBItems = await generateListAOD()
 
 const parsedAnimeListItems = await generateListAL()
 
-const x = mergeLists(parsedAnimeListItems, parsedAODBItems)
+const merged = mergeLists(parsedAnimeListItems, parsedAODBItems)
 
-await writeFile('data/anime-list.json', JSON.stringify(x, null, 2), 'utf-8')
-console.log(`Wrote ${x.length} items to anime-list.json`)
+await appendMissingIds(merged)
+
+await writeFile('data/anime-list.json', JSON.stringify(merged, null, 2), 'utf-8')
+console.log(`Wrote ${merged.length} items to anime-list.json`)
 
 if (process.env.WEBHOOK_URL) {
   const response = await fetch(process.env.WEBHOOK_URL, {
@@ -50,7 +53,7 @@ if (process.env.WEBHOOK_URL) {
     headers: {
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify(x)
+    body: JSON.stringify(merged)
   })
   if (response.ok) {
     console.log('Successfully pushed data to webhook')
