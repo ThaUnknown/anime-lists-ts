@@ -1,0 +1,13 @@
+{
+	"type": "module",
+	"private": true,
+	"name": "anime-lists-ts",
+	"version": "1.0.0",
+	"devDependencies": {
+		"@types/node": "^25.0.9",
+		"eslint-config-standard-universal": "^1.0.9"
+	},
+	"dependencies": {
+		"fast-xml-parser": "^5.3.3"
+	}
+}
