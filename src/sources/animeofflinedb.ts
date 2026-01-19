@@ -17,13 +17,13 @@ export async function generateListAOD () {
     }
     return item
   })
-  const malIDs = adult.map(i => i.myanimelist_id).filter((id): id is number => !!id)
+  const malIDs = adult.map(i => i.mal_id).filter((id): id is number => !!id)
 
   const compound = await malIdsCompound(malIDs)
 
   for (const item of adult) {
-    if (item.myanimelist_id != null && compound[item.myanimelist_id] != null) {
-      item.anilist_id = compound[item.myanimelist_id]
+    if (item.mal_id != null && compound[item.mal_id] != null) {
+      item.anilist_id = compound[item.mal_id]
     }
   }
 

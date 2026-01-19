@@ -18,7 +18,7 @@ export class AnimeItem {
   imdb_id?: string | null
   kitsu_id?: number | null
   livechart_id?: number | null
-  myanimelist_id?: number | null
+  mal_id?: number | null
   simkl_id?: number | null
   themoviedb_id?: number | null
   tvdb_id?: number | null
@@ -58,18 +58,19 @@ export class AnimeItem {
     } else if (tmdbId != null) {
       animeItem.themoviedb_id = this.parseStringToInteger(item.anidbid, 'tmdb id', tmdbId)
     } else if (tmdbTvId != null) {
-      animeItem.themoviedb_id = tmdbTvId
+      animeItem.themoviedb_id = Number(tmdbTvId)
     }
 
     // set TVDB ID
     animeItem.tvdb_id = this.parseStringToInteger(item.anidbid, 'tvdb id', item.tvdbid)
 
     // add season information
-    const season: Season = {}
+    let season: Season | undefined
 
     // set TMDB season
     const tmdbSeason = item.tmdbseason
     if (tmdbSeason != null && tmdbSeason !== '0') {
+      season ??= {}
       season.theMovieDb = this.parseStringToInteger(item.anidbid, 'tmdb season', tmdbSeason)
     }
 
@@ -81,6 +82,7 @@ export class AnimeItem {
             defaultTvdbSeason !== 'a' &&
             defaultTvdbSeason !== '0'
     ) {
+      season ??= {}
       season.thetvdb = this.parseStringToInteger(item.anidbid, 'tvdb season', defaultTvdbSeason)
     }
 
@@ -115,7 +117,7 @@ export class AnimeItem {
     this.imdb_id ??= other.imdb_id
     this.kitsu_id ??= other.kitsu_id
     this.livechart_id ??= other.livechart_id
-    this.myanimelist_id ??= other.myanimelist_id
+    this.mal_id ??= other.mal_id
     this.simkl_id ??= other.simkl_id
     this.themoviedb_id ??= other.themoviedb_id
     this.tvdb_id ??= other.tvdb_id

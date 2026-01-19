@@ -76,7 +76,7 @@ class LivechartSource extends AnimeSource {
 
 class MyAnimeListSource extends AnimeSource {
   constructor () { super('myanimelist.net') }
-  setId (item: AnimeItem, id: string) { item.myanimelist_id = parseInt(id, 10) }
+  setId (item: AnimeItem, id: string) { item.mal_id = parseInt(id, 10) }
 }
 
 class SimklSource extends AnimeSource {
