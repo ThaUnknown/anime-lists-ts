@@ -8,6 +8,7 @@ on:
 jobs:
   run-script-and-upload:
     runs-on: ubuntu-latest
+    environment: AZ
 
     steps:
     - name: Checkout repository
@@ -33,4 +34,7 @@ jobs:
         git push
 
     - name: POST JSON file
+      env:
+        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        WEBHOOK_API_KEY: ${{ secrets.WEBHOOK_API_KEY }}
       run: node src/post.ts

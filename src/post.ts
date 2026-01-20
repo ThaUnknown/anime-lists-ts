@@ -11,5 +11,9 @@ if (process.env.WEBHOOK_URL) {
   })
   if (response.ok) {
     console.log('Successfully pushed data to webhook')
+  } else {
+    console.error(`Failed to push data to webhook: ${response.status} ${response.statusText}`)
   }
+} else {
+  console.log('No WEBHOOK_URL environment variable set, skipping POST')
 }
