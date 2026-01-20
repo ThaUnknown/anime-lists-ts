@@ -31,3 +31,6 @@ jobs:
         git add data/anime-list.json
         git commit -m "Daily update of JSON files" || exit 0
         git push
+
+    - name: POST JSON file
+      run: node src/post.ts

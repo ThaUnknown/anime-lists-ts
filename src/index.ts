@@ -46,16 +46,3 @@ await appendMissingIds(merged)
 
 await writeFile('data/anime-list.json', JSON.stringify(merged, null, 2), 'utf-8')
 console.log(`Wrote ${merged.length} items to anime-list.json`)
-
-if (process.env.WEBHOOK_URL) {
-  const response = await fetch(process.env.WEBHOOK_URL, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(merged)
-  })
-  if (response.ok) {
-    console.log('Successfully pushed data to webhook')
-  }
-}
