@@ -1,0 +1,43 @@
+name: Daily Script Run and JSON Upload
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # At 12:00 AM
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  run-script-and-upload:
+    runs-on: ubuntu-latest
+    environment: AZ
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '24'
+
+    - name: Install dependencies without dev
+      run: npm i --omit=dev
+
+    - name: Run Node.js script
+      run: node src/index.ts
+
+    - name: Commit and push JSON files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/anime-list.json
+        git add data/nbt-mapping.json
+        git add cache/nbt.json
+        git add cache/al.json
+        git commit -m "Daily update of JSON files" || exit 0
+        git push
+
+    - name: POST JSON file
+      env:
+        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        WEBHOOK_API_KEY: ${{ secrets.WEBHOOK_API_KEY }}
+      run: node src/post.ts
