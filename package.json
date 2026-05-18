@@ -8,6 +8,7 @@
 		"eslint-config-standard-universal": "^1.0.9"
 	},
 	"dependencies": {
+		"cookie": "^1.1.1",
 		"fast-xml-parser": "^5.3.3"
 	},
 	"scripts": {

@@ -30,7 +30,6 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/anime-list.json
-        git add data/nbt-mapping.json
         git add cache/nbt.json
         git add cache/al.json
         git commit -m "Daily update of JSON files" || exit 0
