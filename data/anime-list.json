@@ -1852,10 +1852,8 @@
     "livechart_id": 3392,
     "mal_id": 256,
     "simkl_id": 37116,
-    "tvdb_id": 82023,
-    "season": {
-      "tvdb": 1
-    }
+    "themoviedb_id": 37910,
+    "tvdb_id": null
   },
   {
     "type": "OVA",
@@ -12129,8 +12127,10 @@
     "livechart_id": 5094,
     "mal_id": 553,
     "simkl_id": 40612,
-    "tvdb_id": 78855,
+    "themoviedb_id": 12483,
+    "tvdb_id": 82830,
     "season": {
+      "tmdb": 1,
       "tvdb": 1
     }
   },
@@ -183356,10 +183356,17 @@
     "animecountdown_id": 2831384,
     "anime-planet_id": "beastars-final-season",
     "anisearch_id": 16524,
+    "imdb_id": "tt11043632",
     "kitsu_id": 44914,
     "livechart_id": 10715,
     "mal_id": 49469,
-    "simkl_id": 2831384
+    "simkl_id": 2831384,
+    "themoviedb_id": 90937,
+    "tvdb_id": 361013,
+    "season": {
+      "tmdb": 3,
+      "tvdb": 3
+    }
   },
   {
     "type": "OVA",
@@ -220532,7 +220539,14 @@
   },
   {
     "type": "TV",
-    "anidb_id": 19983
+    "anidb_id": 19983,
+    "imdb_id": "tt36034547",
+    "themoviedb_id": 278043,
+    "tvdb_id": 457078,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "TV",
@@ -220586,10 +220600,55 @@
     }
   },
   {
+    "anidb_id": 20027,
+    "themoviedb_id": 320905,
+    "tvdb_id": 457476,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
+  },
+  {
+    "anidb_id": 20029,
+    "themoviedb_id": 321042,
+    "tvdb_id": 477349,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
+  },
+  {
+    "anidb_id": 20035,
+    "themoviedb_id": 321518,
+    "tvdb_id": 477424,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
+  },
+  {
     "anidb_id": 20039,
     "imdb_id": "tt5626028",
     "themoviedb_id": 65930,
     "tvdb_id": 305074
+  },
+  {
+    "anidb_id": 20060,
+    "themoviedb_id": 323056,
+    "tvdb_id": 478148,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
+  },
+  {
+    "anidb_id": 20063,
+    "themoviedb_id": 323263,
+    "tvdb_id": 478263,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "SPECIAL",
