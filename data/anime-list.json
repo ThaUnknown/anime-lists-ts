@@ -2878,8 +2878,7 @@
     "themoviedb_id": 13889,
     "tvdb_id": 70525,
     "season": {
-      "tmdb": 1,
-      "tvdb": 1
+      "tmdb": null
     }
   },
   {
@@ -7276,13 +7275,16 @@
     "animenewsnetwork_id": 361,
     "anime-planet_id": "ad-police-files",
     "anisearch_id": 1413,
-    "imdb_id": "tt0189238",
     "kitsu_id": 1201,
     "livechart_id": 6023,
     "mal_id": 1346,
     "simkl_id": 41602,
-    "themoviedb_id": 31091,
-    "tvdb_id": 79223
+    "themoviedb_id": 67818,
+    "tvdb_id": 393077,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
@@ -8406,8 +8408,8 @@
     "themoviedb_id": 94196,
     "tvdb_id": 72796,
     "season": {
-      "tmdb": 2,
-      "tvdb": 2
+      "tmdb": 1,
+      "tvdb": 1
     }
   },
   {
@@ -220601,6 +220603,24 @@
     }
   },
   {
+    "anidb_id": 20020,
+    "themoviedb_id": 320589,
+    "tvdb_id": 477053,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
+  },
+  {
+    "anidb_id": 20022,
+    "themoviedb_id": 321505,
+    "tvdb_id": 477112,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
+  },
+  {
     "anidb_id": 20027,
     "themoviedb_id": 320905,
     "tvdb_id": 457476,
@@ -220646,6 +220666,24 @@
     "anidb_id": 20063,
     "themoviedb_id": 323263,
     "tvdb_id": 478263,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
+  },
+  {
+    "anidb_id": 20074,
+    "themoviedb_id": 324326,
+    "tvdb_id": 478668,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
+  },
+  {
+    "anidb_id": 20084,
+    "themoviedb_id": 324862,
+    "tvdb_id": 478865,
     "season": {
       "tmdb": 1,
       "tvdb": 1
