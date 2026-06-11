@@ -29187,6 +29187,7 @@
   {
     "type": "MOVIE",
     "anidb_id": 2080,
+    "anilist_id": 213098,
     "animecountdown_id": 1571559,
     "anime-planet_id": "maple-town-movie",
     "anisearch_id": 944,
@@ -104106,6 +104107,7 @@
   {
     "type": "TV",
     "anidb_id": 9443,
+    "anilist_id": 213096,
     "animecountdown_id": 37657,
     "anime-planet_id": "unko-san-tsuiteru-hito-ni-shika-mienai-yousei-junjou-ha",
     "anisearch_id": 8068,
@@ -156765,6 +156767,7 @@
   {
     "type": "MOVIE",
     "anidb_id": 14070,
+    "anilist_id": 213101,
     "animecountdown_id": 815811,
     "animenewsnetwork_id": 24333,
     "anime-planet_id": "neko-kikaku",
