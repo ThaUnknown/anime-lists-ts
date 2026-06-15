@@ -132520,8 +132520,11 @@
     "livechart_id": 2070,
     "mal_id": 32902,
     "simkl_id": 565938,
-    "themoviedb_id": 73833,
-    "tvdb_id": 316842
+    "themoviedb_id": 67800,
+    "tvdb_id": 316842,
+    "season": {
+      "tmdb": 1
+    }
   },
   {
     "type": "TV",
@@ -180221,13 +180224,16 @@
     "animecountdown_id": 1561495,
     "anime-planet_id": "the-ancient-magus-bride-the-boy-from-the-west-and-the-knight-of-the-blue-storm",
     "anisearch_id": 16043,
-    "imdb_id": "tt7326322",
+    "imdb_id": "tt15400722",
     "kitsu_id": 44168,
     "livechart_id": 10458,
     "mal_id": 48438,
     "simkl_id": 1561495,
-    "themoviedb_id": 73833,
-    "tvdb_id": 316842
+    "themoviedb_id": 120471,
+    "tvdb_id": 316842,
+    "season": {
+      "tmdb": 1
+    }
   },
   {
     "anidb_id": 16114,
