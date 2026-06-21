@@ -44894,6 +44894,7 @@
   {
     "type": "TV",
     "anidb_id": 3509,
+    "anilist_id": 213370,
     "animecountdown_id": 41245,
     "animenewsnetwork_id": 1702,
     "anime-planet_id": "nihon-tanjou",
@@ -81065,6 +81066,7 @@
   {
     "type": "SPECIAL",
     "anidb_id": 7345,
+    "anilist_id": 213372,
     "animecountdown_id": 1572135,
     "animenewsnetwork_id": 3315,
     "anime-planet_id": "kaitei-toshi-no-dekiru-made",
@@ -168635,6 +168637,7 @@
   {
     "type": "MOVIE",
     "anidb_id": 15058,
+    "anilist_id": 213369,
     "animecountdown_id": 1158233,
     "anime-planet_id": "run-melos-1979",
     "kitsu_id": 40776,
@@ -306955,6 +306958,7 @@
   },
   {
     "type": "SPECIAL",
+    "anilist_id": 213364,
     "anime-planet_id": "okamoto-zero-one-dinosaur-edition",
     "kitsu_id": 47544,
     "mal_id": 55561
