@@ -115570,6 +115570,7 @@
   {
     "type": "MOVIE",
     "anidb_id": 10532,
+    "anilist_id": 213515,
     "animecountdown_id": 49356,
     "anime-planet_id": "torurus-adventure",
     "anisearch_id": 9595,
@@ -140906,6 +140907,7 @@
   {
     "type": "OVA",
     "anidb_id": 12717,
+    "anilist_id": 213510,
     "animecountdown_id": 648959,
     "anime-planet_id": "terajima-chou-kidan-ginnagashi",
     "anisearch_id": 12152,
