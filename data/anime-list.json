@@ -217601,10 +217601,17 @@
     "animenewsnetwork_id": 37864,
     "anime-planet_id": "grand-blue-season-3",
     "anisearch_id": 20906,
+    "imdb_id": "tt8086718",
     "kitsu_id": 50181,
     "livechart_id": 13331,
     "mal_id": 62542,
-    "simkl_id": 2886886
+    "simkl_id": 2886886,
+    "themoviedb_id": 79166,
+    "tvdb_id": 343913,
+    "season": {
+      "tmdb": 3,
+      "tvdb": 3
+    }
   },
   {
     "type": "MOVIE",
