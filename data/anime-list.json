@@ -201661,10 +201661,17 @@
     "animecountdown_id": 2252084,
     "anime-planet_id": "azur-lane-slow-ahead-2nd-season",
     "anisearch_id": 18684,
+    "imdb_id": "tt13084120",
     "kitsu_id": 47929,
     "livechart_id": 12324,
     "mal_id": 56613,
-    "simkl_id": 2252084
+    "simkl_id": 2252084,
+    "themoviedb_id": 109805,
+    "tvdb_id": 392491,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "TV",
@@ -201976,7 +201983,13 @@
     "kitsu_id": 47989,
     "livechart_id": 12345,
     "mal_id": 56736,
-    "simkl_id": 2263626
+    "simkl_id": 2263626,
+    "themoviedb_id": 284581,
+    "tvdb_id": 476185,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
@@ -201988,7 +202001,13 @@
     "kitsu_id": 47988,
     "livechart_id": 12343,
     "mal_id": 56735,
-    "simkl_id": 2263628
+    "simkl_id": 2263628,
+    "themoviedb_id": 250008,
+    "tvdb_id": 467401,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
@@ -212009,10 +212028,17 @@
     "animenewsnetwork_id": 34218,
     "anime-planet_id": "magilumiere-co-ltd-2nd-season",
     "anisearch_id": 19962,
+    "imdb_id": "tt30476504",
     "kitsu_id": 49427,
     "livechart_id": 12981,
     "mal_id": 60552,
-    "simkl_id": 2665960
+    "simkl_id": 2665960,
+    "themoviedb_id": 240576,
+    "tvdb_id": 442767,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "TV",
@@ -218453,10 +218479,17 @@
     "animenewsnetwork_id": 37954,
     "anime-planet_id": "bungo-stray-dogs-wan-2",
     "anisearch_id": 21002,
+    "imdb_id": "tt13192574",
     "kitsu_id": 50328,
     "livechart_id": 13378,
     "mal_id": 62883,
-    "simkl_id": 2919768
+    "simkl_id": 2919768,
+    "themoviedb_id": 110837,
+    "tvdb_id": 392195,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "TV",
@@ -220888,10 +220921,17 @@
     "animenewsnetwork_id": 38789,
     "anime-planet_id": "hana-kimi-season-2",
     "anisearch_id": 21327,
+    "imdb_id": "tt38646611",
     "kitsu_id": 50613,
     "livechart_id": 13564,
     "mal_id": 63780,
-    "simkl_id": 3058024
+    "simkl_id": 3058024,
+    "themoviedb_id": 254492,
+    "tvdb_id": 450072,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "TV",
