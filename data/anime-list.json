@@ -210272,7 +210272,13 @@
     "kitsu_id": 49265,
     "livechart_id": 12874,
     "mal_id": 60059,
-    "simkl_id": 2601798
+    "simkl_id": 2601798,
+    "themoviedb_id": 222623,
+    "tvdb_id": 432455,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "ONA",
@@ -219718,7 +219724,14 @@
   },
   {
     "type": "TV",
-    "anidb_id": 19816
+    "anidb_id": 19816,
+    "imdb_id": "tt37532599",
+    "themoviedb_id": 293629,
+    "tvdb_id": 464693,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "MOVIE",
@@ -219886,7 +219899,13 @@
   },
   {
     "type": "TV",
-    "anidb_id": 19838
+    "anidb_id": 19838,
+    "themoviedb_id": 297826,
+    "tvdb_id": 452039,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
