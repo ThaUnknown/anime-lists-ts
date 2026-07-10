@@ -217414,10 +217414,17 @@
     "animenewsnetwork_id": 37848,
     "anime-planet_id": "clevatess-season-2",
     "anisearch_id": 20894,
+    "imdb_id": "tt32991344",
     "kitsu_id": 50154,
     "livechart_id": 13323,
     "mal_id": 62513,
-    "simkl_id": 2884094
+    "simkl_id": 2884094,
+    "themoviedb_id": 258348,
+    "tvdb_id": 451793,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "UNKNOWN",
