@@ -222080,7 +222080,14 @@
   },
   {
     "type": "TV",
-    "anidb_id": 20167
+    "anidb_id": 20167,
+    "imdb_id": "tt29521186",
+    "themoviedb_id": 237233,
+    "tvdb_id": 440897,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "TV",
