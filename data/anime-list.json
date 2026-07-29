@@ -141737,6 +141737,7 @@
   {
     "type": "TV",
     "anidb_id": 12792,
+    "anilist_id": 214511,
     "animecountdown_id": 668653,
     "anime-planet_id": "flash-and-dash",
     "anisearch_id": 12335,
@@ -239647,6 +239648,7 @@
   },
   {
     "type": "OVA",
+    "anilist_id": 202896,
     "mal_id": 64542
   },
   {
