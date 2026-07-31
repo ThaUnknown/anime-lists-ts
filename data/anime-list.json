@@ -207660,10 +207660,13 @@
     "animenewsnetwork_id": 32858,
     "anime-planet_id": "demon-slayer-kimetsu-no-yaiba-movie-infinity-castle-part-1",
     "anisearch_id": 19389,
+    "imdb_id": "tt32820897",
     "kitsu_id": 49001,
     "livechart_id": 12734,
     "mal_id": 59192,
-    "simkl_id": 2498112
+    "simkl_id": 2498112,
+    "themoviedb_id": 1311031,
+    "tvdb_id": 348545
   },
   {
     "type": "TV",
