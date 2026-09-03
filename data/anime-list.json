@@ -220385,9 +220385,16 @@
     "anilist_id": 191832,
     "anime-planet_id": "link-click-3rd-season",
     "anisearch_id": 20484,
+    "imdb_id": "tt14976292",
     "kitsu_id": 49889,
     "livechart_id": 13155,
-    "mal_id": 61607
+    "mal_id": 61607,
+    "themoviedb_id": 123542,
+    "tvdb_id": 402033,
+    "season": {
+      "tmdb": 4,
+      "tvdb": 4
+    }
   },
   {
     "type": "TV",
