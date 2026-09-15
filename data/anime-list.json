@@ -189051,7 +189051,7 @@
     "themoviedb_id": 105009,
     "tvdb_id": 393478,
     "season": {
-      "tmdb": 2,
+      "tmdb": 1,
       "tvdb": 2
     }
   },
@@ -189258,10 +189258,13 @@
     "animecountdown_id": 1814376,
     "anime-planet_id": "mahoutsukai-no-yoru",
     "anisearch_id": 16972,
+    "imdb_id": "tt31970593",
     "kitsu_id": 45666,
     "livechart_id": 10945,
     "mal_id": 50668,
-    "simkl_id": 1814376
+    "simkl_id": 1814376,
+    "themoviedb_id": 920167,
+    "tvdb_id": null
   },
   {
     "type": "ONA",
@@ -199269,7 +199272,7 @@
     "themoviedb_id": 105009,
     "tvdb_id": 393478,
     "season": {
-      "tmdb": 3,
+      "tmdb": 1,
       "tvdb": 3
     }
   },
@@ -201968,7 +201971,13 @@
     "kitsu_id": 47985,
     "livechart_id": 12344,
     "mal_id": 56733,
-    "simkl_id": 2263622
+    "simkl_id": 2263622,
+    "themoviedb_id": 335194,
+    "tvdb_id": 440056,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
@@ -203618,10 +203627,17 @@
     "animenewsnetwork_id": 31103,
     "anime-planet_id": "a-returners-magic-should-be-special-season-2",
     "anisearch_id": 18981,
+    "imdb_id": "tt28313387",
     "kitsu_id": 48397,
     "livechart_id": 12474,
     "mal_id": 57612,
-    "simkl_id": 2330432
+    "simkl_id": 2330432,
+    "themoviedb_id": 230050,
+    "tvdb_id": 432815,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "ONA",
@@ -207591,10 +207607,17 @@
     "animecountdown_id": 2493596,
     "anime-planet_id": "tokyo-revengers-battle-of-three-deities",
     "anisearch_id": 19353,
+    "imdb_id": "tt13196080",
     "kitsu_id": 48960,
     "livechart_id": 12704,
     "mal_id": 59088,
-    "simkl_id": 2493596
+    "simkl_id": 2493596,
+    "themoviedb_id": 105009,
+    "tvdb_id": 393478,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 4
+    }
   },
   {
     "type": "TV",
@@ -212174,7 +212197,13 @@
     "kitsu_id": 49437,
     "livechart_id": 12991,
     "mal_id": 60601,
-    "simkl_id": 2667698
+    "simkl_id": 2667698,
+    "themoviedb_id": 237150,
+    "tvdb_id": 434704,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 3
+    }
   },
   {
     "type": "TV",
@@ -216073,10 +216102,17 @@
     "animenewsnetwork_id": 36864,
     "anime-planet_id": "cyberpunk-edgerunners-2",
     "anisearch_id": 20705,
+    "imdb_id": "tt12590266",
     "kitsu_id": 50016,
     "livechart_id": 13230,
     "mal_id": 61990,
-    "simkl_id": 2830474
+    "simkl_id": 2830474,
+    "themoviedb_id": 326788,
+    "tvdb_id": 384541,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 2
+    }
   },
   {
     "type": "ONA",
@@ -218352,9 +218388,12 @@
     "animenewsnetwork_id": 37933,
     "anime-planet_id": "the-apothecary-diaries-movie",
     "anisearch_id": 20990,
+    "imdb_id": "tt39110207",
     "livechart_id": 13371,
     "mal_id": 62844,
-    "simkl_id": 2909050
+    "simkl_id": 2909050,
+    "themoviedb_id": 1566920,
+    "tvdb_id": null
   },
   {
     "type": "TV",
@@ -221519,7 +221558,11 @@
     "anisearch_id": 21562,
     "kitsu_id": 50752,
     "livechart_id": 13628,
-    "mal_id": 64131
+    "mal_id": 64131,
+    "tvdb_id": 477658,
+    "season": {
+      "tvdb": 1
+    }
   },
   {
     "type": "ONA",
@@ -221637,7 +221680,13 @@
   {
     "type": "TV",
     "anidb_id": 20065,
-    "anisearch_id": 21575
+    "anisearch_id": 21575,
+    "themoviedb_id": 200777,
+    "tvdb_id": 419502,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "ONA",
@@ -222051,7 +222100,14 @@
   },
   {
     "type": "TV",
-    "anidb_id": 20142
+    "anidb_id": 20142,
+    "imdb_id": "tt31131310",
+    "themoviedb_id": 216467,
+    "tvdb_id": 424019,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "TV",
@@ -222194,6 +222250,16 @@
     "season": {
       "tmdb": 1,
       "tvdb": 1
+    }
+  },
+  {
+    "anidb_id": 20240,
+    "imdb_id": "tt35769369",
+    "themoviedb_id": 261343,
+    "tvdb_id": 453057,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 2
     }
   },
   {
