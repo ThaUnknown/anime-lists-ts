@@ -169209,10 +169209,13 @@
     "animenewsnetwork_id": 23072,
     "anime-planet_id": "given-movie",
     "anisearch_id": 14627,
+    "imdb_id": "tt11802992",
     "kitsu_id": 42572,
     "livechart_id": 9604,
     "mal_id": 40421,
-    "simkl_id": 1170285
+    "simkl_id": 1170285,
+    "themoviedb_id": 632632,
+    "tvdb_id": 361218
   },
   {
     "type": "MOVIE",
@@ -182457,7 +182460,9 @@
     "kitsu_id": 44622,
     "livechart_id": 10607,
     "mal_id": 49053,
-    "simkl_id": 1649311
+    "simkl_id": 1649311,
+    "themoviedb_id": 88040,
+    "tvdb_id": 361218
   },
   {
     "type": "TV",
@@ -198672,10 +198677,13 @@
     "animenewsnetwork_id": 27565,
     "anime-planet_id": "given-movie-2-hiiragi-mix",
     "anisearch_id": 18300,
+    "imdb_id": "tt31257225,tt35631332",
     "kitsu_id": 47209,
     "livechart_id": 11893,
     "mal_id": 54791,
-    "simkl_id": 2125448
+    "simkl_id": 2125448,
+    "themoviedb_id": null,
+    "tvdb_id": 361218
   },
   {
     "type": "TV",
