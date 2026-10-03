@@ -222950,7 +222950,13 @@
   },
   {
     "type": "ONA",
-    "anidb_id": 20156
+    "anidb_id": 20156,
+    "themoviedb_id": 289324,
+    "tvdb_id": 462774,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
