@@ -216695,10 +216695,17 @@
     "animenewsnetwork_id": 36880,
     "anime-planet_id": "black-clover-2nd-season",
     "anisearch_id": 20716,
+    "imdb_id": "tt7441658",
     "kitsu_id": 50024,
     "livechart_id": 13232,
     "mal_id": 61967,
-    "simkl_id": 2829490
+    "simkl_id": 2829490,
+    "themoviedb_id": 73223,
+    "tvdb_id": 331753,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "ONA",
@@ -219507,7 +219514,14 @@
   },
   {
     "type": "TV",
-    "anidb_id": 19714
+    "anidb_id": 19714,
+    "imdb_id": "tt4539114",
+    "themoviedb_id": 333622,
+    "tvdb_id": 470347,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "ONA",
