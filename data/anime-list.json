@@ -137298,6 +137298,7 @@
   {
     "type": "SPECIAL",
     "anidb_id": 12346,
+    "anilist_id": 217786,
     "animecountdown_id": 610919,
     "anime-planet_id": "t7s-longing-for-summer-again-and-again-harukaze",
     "anisearch_id": 12322,
@@ -220249,10 +220250,17 @@
     "animenewsnetwork_id": 38154,
     "anime-planet_id": "a-wild-last-boss-appeared-2",
     "anisearch_id": 21117,
+    "imdb_id": "tt33258199",
     "kitsu_id": 50404,
     "livechart_id": 13442,
     "mal_id": 63140,
-    "simkl_id": 2970782
+    "simkl_id": 2970782,
+    "themoviedb_id": 280042,
+    "tvdb_id": 453694,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "SPECIAL",
@@ -221400,8 +221408,10 @@
     "livechart_id": 13526,
     "mal_id": 63509,
     "simkl_id": 3029646,
+    "themoviedb_id": 335790,
     "tvdb_id": 474294,
     "season": {
+      "tmdb": 1,
       "tvdb": 1
     }
   },
@@ -222347,8 +222357,10 @@
     "kitsu_id": 50752,
     "livechart_id": 13628,
     "mal_id": 64131,
+    "themoviedb_id": 336654,
     "tvdb_id": 477658,
     "season": {
+      "tmdb": 1,
       "tvdb": 1
     }
   },
