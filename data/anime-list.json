@@ -123831,12 +123831,9 @@
     "animecountdown_id": 1572777,
     "anime-planet_id": "katsura-hime",
     "anisearch_id": 10537,
-    "imdb_id": "tt0422569",
     "kitsu_id": 10193,
     "mal_id": 28419,
-    "simkl_id": 1572777,
-    "themoviedb_id": 798833,
-    "tvdb_id": null
+    "simkl_id": 1572777
   },
   {
     "type": "OVA",
@@ -208906,10 +208903,17 @@
     "animecountdown_id": 2505906,
     "anime-planet_id": "magic-knight-rayearth-2026",
     "anisearch_id": 19448,
+    "imdb_id": "tt32813343",
     "kitsu_id": 49008,
     "livechart_id": 12737,
     "mal_id": 59204,
-    "simkl_id": 2505906
+    "simkl_id": 2505906,
+    "themoviedb_id": 303272,
+    "tvdb_id": 452013,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
@@ -215587,7 +215591,13 @@
     "kitsu_id": 49883,
     "livechart_id": 13151,
     "mal_id": 61603,
-    "simkl_id": 2767602
+    "simkl_id": 2767602,
+    "themoviedb_id": 126437,
+    "tvdb_id": 407840,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "ONA",
@@ -218676,7 +218686,13 @@
     "kitsu_id": 50208,
     "livechart_id": 13344,
     "mal_id": 62590,
-    "simkl_id": 2890902
+    "simkl_id": 2890902,
+    "themoviedb_id": 276288,
+    "tvdb_id": 456463,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "ONA",
@@ -220430,7 +220446,14 @@
   },
   {
     "type": "TV",
-    "anidb_id": 19795
+    "anidb_id": 19795,
+    "imdb_id": "tt32344704",
+    "themoviedb_id": 253811,
+    "tvdb_id": 449843,
+    "season": {
+      "tmdb": 2,
+      "tvdb": 2
+    }
   },
   {
     "type": "TV",
@@ -222536,7 +222559,13 @@
     "anidb_id": 20077,
     "anilist_id": 212888,
     "anisearch_id": 21586,
-    "mal_id": 64340
+    "mal_id": 64340,
+    "themoviedb_id": 324502,
+    "tvdb_id": 478752,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "ONA",
@@ -222561,7 +222590,13 @@
     "type": "TV",
     "anidb_id": 20081,
     "animecountdown_id": 3140904,
-    "simkl_id": 3140904
+    "simkl_id": 3140904,
+    "themoviedb_id": 323937,
+    "tvdb_id": 478770,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
@@ -222590,7 +222625,13 @@
   {
     "type": "TV",
     "anidb_id": 20085,
-    "anime-planet_id": "sgt-frog-2026"
+    "anime-planet_id": "sgt-frog-2026",
+    "themoviedb_id": 308977,
+    "tvdb_id": 472037,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
@@ -223067,6 +223108,15 @@
     "season": {
       "tmdb": 1,
       "tvdb": 2
+    }
+  },
+  {
+    "anidb_id": 20348,
+    "themoviedb_id": 205493,
+    "tvdb_id": 254899,
+    "season": {
+      "tmdb": 3,
+      "tvdb": 5
     }
   },
   {
