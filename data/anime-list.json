@@ -176282,10 +176282,17 @@
     "animecountdown_id": 1400639,
     "anime-planet_id": "wu-shan-wu-xing",
     "anisearch_id": 15493,
+    "imdb_id": "tt12953630",
     "kitsu_id": 41361,
     "livechart_id": 9027,
     "mal_id": 37936,
-    "simkl_id": 1400639
+    "simkl_id": 1400639,
+    "themoviedb_id": 102788,
+    "tvdb_id": 383686,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "ONA",
@@ -191571,10 +191578,17 @@
     "animecountdown_id": 2225300,
     "anime-planet_id": "wu-shan-wu-xing-xichuan-huan-zi-lin",
     "anisearch_id": 17148,
+    "imdb_id": "tt12953630",
     "kitsu_id": 45557,
     "livechart_id": 11590,
     "mal_id": 50407,
-    "simkl_id": 2225300
+    "simkl_id": 2225300,
+    "themoviedb_id": 102788,
+    "tvdb_id": 383686,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 2
+    }
   },
   {
     "anidb_id": 17242,
