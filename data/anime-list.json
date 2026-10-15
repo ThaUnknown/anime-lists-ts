@@ -215209,9 +215209,12 @@
     "anilist_id": 190054,
     "anime-planet_id": "my-happy-marriage-new",
     "anisearch_id": 20463,
+    "imdb_id": "tt19869172",
     "kitsu_id": 49838,
     "livechart_id": 13135,
-    "mal_id": 61440
+    "mal_id": 61440,
+    "themoviedb_id": 196944,
+    "tvdb_id": 418665
   },
   {
     "type": "ONA",
@@ -222967,7 +222970,14 @@
   },
   {
     "type": "TV",
-    "anidb_id": 20143
+    "anidb_id": 20143,
+    "imdb_id": "tt3105422",
+    "themoviedb_id": 60761,
+    "tvdb_id": 273005,
+    "season": {
+      "tmdb": 4,
+      "tvdb": 4
+    }
   },
   {
     "type": "ONA",
