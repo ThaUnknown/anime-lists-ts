@@ -198295,7 +198295,13 @@
     "kitsu_id": 50338,
     "livechart_id": 11802,
     "mal_id": 54344,
-    "simkl_id": 2086928
+    "simkl_id": 2086928,
+    "themoviedb_id": 337277,
+    "tvdb_id": 457780,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "ONA",
@@ -207069,10 +207075,17 @@
     "animenewsnetwork_id": 38845,
     "anime-planet_id": "baki-dou-the-invincible-samurai",
     "anisearch_id": 19175,
+    "imdb_id": "tt38201910",
     "kitsu_id": 48676,
     "livechart_id": 12621,
     "mal_id": 58573,
-    "simkl_id": 2420618
+    "simkl_id": 2420618,
+    "themoviedb_id": 300054,
+    "tvdb_id": 467753,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
