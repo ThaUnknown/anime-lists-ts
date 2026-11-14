@@ -190163,7 +190163,7 @@
     "themoviedb_id": 101172,
     "tvdb_id": 392226,
     "season": {
-      "tmdb": 2,
+      "tmdb": 1,
       "tvdb": 2
     }
   },
@@ -203114,9 +203114,16 @@
     "animecountdown_id": 2275520,
     "anime-planet_id": "renegade-immortal",
     "anisearch_id": 20755,
+    "imdb_id": "tt27432264",
     "kitsu_id": 48036,
     "mal_id": 55809,
-    "simkl_id": 2275520
+    "simkl_id": 2275520,
+    "themoviedb_id": 223911,
+    "tvdb_id": 433335,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 1
+    }
   },
   {
     "type": "TV",
@@ -204636,7 +204643,13 @@
     "anime-planet_id": "swallowed-star-3rd-season",
     "kitsu_id": 48060,
     "mal_id": 56523,
-    "simkl_id": 2333758
+    "simkl_id": 2333758,
+    "themoviedb_id": 101172,
+    "tvdb_id": 392226,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 3
+    }
   },
   {
     "type": "ONA",
@@ -204647,7 +204660,13 @@
     "anisearch_id": 18815,
     "kitsu_id": 48061,
     "mal_id": 56524,
-    "simkl_id": 2333760
+    "simkl_id": 2333760,
+    "themoviedb_id": 101172,
+    "tvdb_id": 392226,
+    "season": {
+      "tmdb": 1,
+      "tvdb": 4
+    }
   },
   {
     "type": "TV",
